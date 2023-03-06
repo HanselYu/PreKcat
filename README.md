@@ -71,9 +71,9 @@ Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README
 [(Back to top)](#table-of-contents)
 
 Notice:
-- 1. You need install pretrained protein language modoel *ProtT5-XL-UniRef50* to generate enzyme representation, the link is provided on [ProtT5-XL-U50](https://github.com/agemagician/ProtTrans#models).
-- 2. You need install pretrained molecular language modoel *SMILES Transformer* to generate substrate representation, the link is provided on [SMILES Transformer](https://github.com/DSPsleeporg/smiles-transformer).
-- 3. You also need install modoel *PreKcat_model* to predict, the link is provided on [PreKcat_model](https://huggingface.co/HanselYu/PreKcat).
+- You need install pretrained protein language modoel *ProtT5-XL-UniRef50* to generate enzyme representation, the link is provided on [ProtT5-XL-U50](https://github.com/agemagician/ProtTrans#models).
+- You need install pretrained molecular language modoel *SMILES Transformer* to generate substrate representation, the link is provided on [SMILES Transformer](https://github.com/DSPsleeporg/smiles-transformer).
+- You also need install modoel *PreKcat_model* to predict, the link is provided on [PreKcat_model](https://huggingface.co/HanselYu/PreKcat).
 
 other packages:
 - Python v3.6.9 (Anaconda installation recommended)
