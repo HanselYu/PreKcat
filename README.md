@@ -200,7 +200,7 @@ if __name__ == '__main__':
     seq_vec = Seq_to_vec(sequences)
     smiles_vec = smiles_to_vec(Smiles)
     fused_vector = np.concatenate((smiles_vec, seq_vec), axis=1)
-    with open('PreKcat_new/0_model.pkl', "rb") as f:
+    with open('PreKcat_new/PreKcat_model.pkl', "rb") as f:
         model = pickle.load(f)
     Pre_label = model.predict(fused_vector)
     Pre_label_pow = [math.pow(10, Pre_label[i]) for i in range(len(Pre_label))]
