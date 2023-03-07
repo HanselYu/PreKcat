@@ -205,7 +205,7 @@ if __name__ == '__main__':
     Pre_label = model.predict(fused_vector)
     Pre_label_pow = [math.pow(10, Pre_label[i]) for i in range(len(Pre_label))]
     print(len(Pre_label))
-    res = pd.DataFrame({'sequences': sequences, 'Smiles': Smiles, 'Pre_label': Pre_label})
+    res = pd.DataFrame({'sequences': sequences, 'Smiles': Smiles, 'Pre_label': Pre_label_pow})
     res.to_excel('PreKcat_predicted_label.xlsx')
 ```
 
