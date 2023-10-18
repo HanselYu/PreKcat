@@ -1,5 +1,7 @@
 <!-- Add banner here -->
 
+# We have released a new version of PreKcat, called UniKP, the link is provided on [UniKP](https://github.com/Luo-SynBioLab/UniKP).
+
 # PreKcat
 
 <!-- Add buttons here -->
